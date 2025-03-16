@@ -1,0 +1,27 @@
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.group {
+    height: 520px;
+    width: 520px;
+    color: aliceblue;
+    background-color: black;
+}
+
+.group img {
+    height: 420px;
+    width: 520px;
+}
+
+.group a{
+    text-decoration:none ;
+    display: flex;
+    justify-content:right;
+    background-color: red;
+    color: white;
+    margin: 0px 63px 0px 357px;
+    padding: 0px 10px 13px 10px;
+}

@@ -1,0 +1,10 @@
+.content {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.card {
+    margin-top: 180px;
+    gap: 1rem;
+    margin-bottom: 50px;
+}

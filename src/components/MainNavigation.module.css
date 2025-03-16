@@ -1,0 +1,45 @@
+.nav {
+    background-image: url('../assets/page-title.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    height: 467px;
+    text-decoration: none;
+}
+
+.nav div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    margin-top: 70px;
+    font-size: 30px;
+    margin-right: 200px;
+}
+
+.nav div img {
+    margin-right: 20px;
+    width: 60px;
+    height: auto;
+}
+
+.list {
+    display: flex;
+    height: 28px;
+    gap: 2rem;
+    margin-top: 70px;
+    color: #fefefe;
+    font-size: 20px;
+    text-decoration:#fefefe;
+}
+
+.list :hover {
+    color: red;
+    font-size: 25px;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+}
