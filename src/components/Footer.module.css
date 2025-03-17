@@ -1,0 +1,19 @@
+.footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h1 {
+    text-align: center;
+    font-size: 140px; /* Adjust size as needed */
+    font-weight: bold;
+    color: transparent; /* Makes the inner text invisible */
+    -webkit-text-stroke: 2px black; /* Creates the outline effect */
+    text-transform:uppercase;
+}
+
+.footer div img {
+    height: 344px;
+    width: auto;
+}

@@ -29,12 +29,9 @@
 
 .list {
     display: flex;
-    height: 28px;
     gap: 2rem;
     margin-top: 70px;
-    color: #fefefe;
     font-size: 20px;
-    text-decoration:#fefefe;
 }
 
 .list :hover {

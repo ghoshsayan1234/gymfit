@@ -2,6 +2,8 @@ import { Outlet } from "react-router-dom";
 import MainNavigation from "../components/MainNavigation";
 import classes from './Root.module.css';
 import Card from "../components/Card";
+import Footer from "../components/Footer";
+import MovingLine from "../components/MovingLine";
 
 function RootLayout() {
     return (
@@ -13,6 +15,8 @@ function RootLayout() {
             <Card />
             <Card />
             <Card />
+            <MovingLine />
+            <Footer />
         </>
     )
 }

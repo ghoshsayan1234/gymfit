@@ -11,9 +11,9 @@ function MainNavigation() {
                     <h2>GYMFIT</h2>
                 </div>
                 <ul className={classes.list}>
-                    <l>
+                    <li>
                         <Link to="/">Home</Link>
-                    </l>
+                    </li>
                     <li>
                         <Link to="/about">About</Link>
                     </li>
@@ -27,7 +27,7 @@ function MainNavigation() {
                         <Link to="/services">Services</Link>
                     </li>
                     <li>
-                        <Link tp="/shop">Shop</Link>
+                        <Link to="/shop">Shop</Link>
                     </li>
                     <li>
                         <Link to="/blog">Blog</Link>

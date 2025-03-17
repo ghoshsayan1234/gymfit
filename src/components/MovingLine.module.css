@@ -1,0 +1,34 @@
+/* Container for the scrolling section */
+.scrollingBanner {
+    display: flex;
+    background-color: red; /* Red background */
+    color: white; /* White text */
+    padding: 10px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    height: 80px;
+}
+
+/* The moving text */
+.scrollingBanner .content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scrollText 10s linear infinite; /* Adjust speed */
+}
+
+/* Animation for scrolling effect */
+@keyframes scrollText {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+/* Style for text and icons */
+.scrollingBanner .content span {
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 200px; /* Space between items*/
+}
