@@ -4,6 +4,7 @@ import classes from './Root.module.css';
 import Card from "../components/Card";
 import Footer from "../components/Footer";
 import MovingLine from "../components/MovingLine";
+import MainFooter from "../components/MainFooter";
 
 function RootLayout() {
     return (
@@ -17,6 +18,7 @@ function RootLayout() {
             <Card />
             <MovingLine />
             <Footer />
+            <MainFooter />
         </>
     )
 }
