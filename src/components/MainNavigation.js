@@ -32,9 +32,6 @@ function MainNavigation() {
                     <li>
                         <Link to="/blog">Blog</Link>
                     </li>
-                    <li>
-                        <Link to="/products">Products</Link>
-                    </li>
                 </ul>
             </nav>
     )

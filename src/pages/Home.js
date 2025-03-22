@@ -1,9 +1,11 @@
+import Card from "../components/Card";
+
 const HomePage = () => {
   return (
     <>
-      <h1>
-        My home page
-      </h1>
+      <Card />
+      <Card />
+      <Card />
     </>
   )
 }
