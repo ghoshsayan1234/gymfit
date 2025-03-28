@@ -1,0 +1,207 @@
+.classes {
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sideBar {
+    margin: 70px 20px 70px 70px;
+    height: 1900px;
+    width: 270px;
+}
+
+.sideBar h3 {
+    color: #000;
+    text-align: left;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+.div1 {
+    padding-top: 180px;
+    font-size: 25px;
+    margin-top: 30px;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    height: 400px;
+    width: 100%;
+    background-image: url('../../assets/trainer-5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.div2 {
+    padding-top: 180px;
+    font-size: 25px;
+    margin-top: 30px;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    margin-top: 30px;
+    height: 400px;
+    width: 100%;
+    background-image: url('../../assets/trainer-6.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.div3 {
+    padding-top: 180px;
+    font-size: 25px;
+    margin-top: 30px;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    margin-top: 30px;
+    height: 400px;
+    width: 100%;
+    background-image: url('../../assets/trainer-7.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.pictures {
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 30px;
+}
+
+.newsLetter {
+    color: #000;
+    text-align: left;
+}
+
+.input {
+    height: 64px;
+    width: 236px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+}
+
+button {
+    height: 64px;
+    width: 64px;
+    background-color: rgb(231, 44, 44);
+}
+
+/* Mainbar  */
+
+.mainBar {
+    margin: 50px 80px 10px 10px;
+}
+
+.firstMain {
+    height: 710px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.michaelWook {
+    color: #000;
+    text-align: left;
+}
+
+.michaelWook div h3 {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.michaelWook div p {
+    font-size: 20px;
+    font-weight: 150;
+}
+
+.michaelWook div p a {
+    color: red;
+    font-size: 20px;
+    padding-left: 8px;
+    text-decoration: none;
+}
+
+.michaelWook p {
+    padding-right: 20px;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.coach {
+    margin-right: 100px;
+    height: 530px;
+    width:350px;
+}
+
+.mySocial {
+    height: 600px;
+    width: 100%;;
+    color: #000;
+}
+
+.servicePic {
+    height: 500px;
+    width: 770px;
+}
+
+.last {
+    color:#000;
+}
+
+.appointment {
+    text-align: left;
+}
+
+.appointment h3 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.appointment p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.firstRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lastInput {
+    height: 64px;
+    width: 400px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+}
+
+.bigInput {
+    margin-top: 30px;
+    height: 120px;
+    width: 900px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    text-align: left;
+}
+
+.lastDiv {
+    margin-top: 30px;
+    text-align: left;
+    display: flex;
+
+}
+
+.lastDiv button {
+    height: 56px;
+    width: 182px;
+    color: #fff;
+    background-color: #000;
+    font-size: 16px;
+    border-left: 4px solid red;
+    border-right: 4px solid red;
+}
+
+.lastDiv p {
+    color: #000;
+    margin-left: 50px;
+    font-weight: 600;
+}
