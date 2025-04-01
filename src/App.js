@@ -6,7 +6,7 @@ import Classes from "./pages/Classes/Classes";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Services from "./pages/Services";
 import Shop from "./pages/Shop";
-import Blog from "./pages/Blog";
+import Blog from "./pages/Blog/Blog";
 
 const router = createBrowserRouter([
   {

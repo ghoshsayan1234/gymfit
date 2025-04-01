@@ -79,7 +79,7 @@
     font-size: 15px;
 }
 
-button {
+.button {
     height: 64px;
     width: 64px;
     background-color: rgb(231, 44, 44);

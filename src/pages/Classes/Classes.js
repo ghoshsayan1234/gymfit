@@ -49,7 +49,7 @@ const Classes = () => {
           </div>
           <div style={{display:'flex'}}>
           <input type="email" placeholder='Email' className={classes.input} />
-          <button></button>
+          <button className={classes.button}></button>
           </div>
         </div>
       </div>
